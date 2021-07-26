@@ -1,0 +1,10 @@
+---
+databaseChangeLog:
+  - changeSet:
+      id: renameTable
+      author: Mazbah
+      changes:
+        -  renameTable:
+             newTableName:  new_user
+             oldTableName:  user
+             schemaName:  my_db

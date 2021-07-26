@@ -1,0 +1,10 @@
+---
+databaseChangeLog:
+  - changeSet:
+      id: updateColumn
+      author: Mazbah
+      changes:
+        - dropTable:
+            cascadeConstraints: true
+            schemaName: my_db
+            tableName: user
